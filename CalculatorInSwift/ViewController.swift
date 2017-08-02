@@ -128,6 +128,7 @@ class ViewController: UIViewController {
         } else if (currentFunction == .clear) {
             clearResults()
         } else {
+            currentResult = Int(result.text!)!
             // Do Nothing
         }
         result.text = "\(currentResult)"
